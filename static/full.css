@@ -1,0 +1,161 @@
+/* body{
+
+}
+
+.font1{
+
+}
+
+.font2{
+
+} */
+.col{
+    color: white;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+
+}
+#box1{
+    background-color: yellowgreen;
+    display: flex;
+    margin: -10px;
+    margin-bottom: 0px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+
+}
+svg{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    margin-right: 30px;
+  }
+  
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: gold;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: transparent;}
+#box3{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.dets{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.dets input{
+  border: 0px solid transparent;
+  width: 500px;
+  font-size: 25px;
+}
+
+.things{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+  .item{
+    margin: 50px;
+    height: 450px;
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .item:hover{
+    border:2px solid black;
+    /* width:370px;
+    height:410px;
+    background-color: rgb(206, 206, 206); */
+}
+  .img{
+    height: 80px;
+    width:80px;
+    border:2px solid pink;
+  }
+  .image{
+    height: 400px;
+    width:60%;
+    margin: auto;
+    /* border:2px solid black; */
+  }
+  .imag{
+    height: 200px;
+    width:700px;
+    margin: auto;
+    border:2px solid pink;
+  }
+  .im{
+    margin-top: 50px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+  }
+  .btn{
+    margin-top: 20px;
+  }
+  #menu{
+    margin-right: 100px;
+  }
+
+  @media only screen and (max-width: 400px) {
+    #menu{
+        margin-right: 5px;
+
+    }
+    .item{
+      width:300px;
+      flex-wrap: wrap;
+    }
+  }
+  
